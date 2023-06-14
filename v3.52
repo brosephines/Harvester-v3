@@ -1,5 +1,4 @@
-while true do
-	loadstring(game:getObjects("rbxassetid://13750512153").Source)
+
 	for i, v in pairs(game.Players:GetChildren()) do
 		local gui = Instance.new("ScreenGui")
 		gui.Name = "willy"
@@ -656,4 +655,3 @@ while true do
 	part2.BrickColor = BrickColor.random()
 	
 	print("Super Umbrella Ball Total Oxymoron Xylem Eradicus Radiate Aanthropomorphism Doobius Evaluate Vast Anubis Netherlands Dodecahedron Astonauight Soap Sause")
-end
