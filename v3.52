@@ -1,7 +1,7 @@
 while wait(.5) do
 	local part = Instance.new("Part")
 	part.Parent = game.Workspace
-	part.Size = Vector3.new(math.random(5, 50), math.random(5, 20), math.random(5, 20))
+	part.Size = Vector3.new(math.random(5, 15), math.random(5, 15), math.random(5, 15))
 	part.BrickColor = BrickColor.random()
 	part.Position = game.Workspace.gettomfooledd.HumanoidRootPart.Position + Vector3.new(0, 5, 0)
 end
