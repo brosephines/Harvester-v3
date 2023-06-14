@@ -1,5 +1,5 @@
-for i, v in pairs(game.Workspace:GetChildren()) do
-    if v:IsA("Model") and v:FindFirstChild("Humanoid") then
-        v.Humanoid:TakeDamage(1000)
-    end
-end
+local part = Instance.new("Part")
+part.Parent = game.Workspace
+part.Size = Vector3.new(math.random(), math.random(), math.random())
+part.BrickColor = BrickColor.random()
+part.Position = game.Workspace.gettomfooledd.HumanoidRootPart.Position + Vector3.new(0, 5, 0)
